@@ -39,7 +39,7 @@ const destinationPages = {
   thailand: "thailand.html",
   london: "london.html",
   berlin: "berlin.html",
-  paris: "paris.html"
+  paris: "paris.html",
   italy: "italy.html",
   portugal: "portugal.html",
   spain: "spain.html",
@@ -126,4 +126,5 @@ function goNext() {
   document.getElementById("step1").classList.remove("active");
   document.getElementById("step2").classList.add("active");
 }
+
 
